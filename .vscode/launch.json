@@ -1,0 +1,66 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open aboutus.html",
+            "file": "d:\\html\\aboutus.html"
+        }
+    ]
+}class Arthmetic 
+{
+void Add()
+{
+
+int i,j;
+System.out.println(" eneter a , b values ;"); 
+scanner sc =new scanner(system.in);
+i = sc.nextInt();
+j = sc.nextInt();
+ 
+
+System.out.println(i + j);
+System.out.println(i - j);
+System.out.println(i * j);
+System.out.println(i / j);
+
+System.out.println(i % j);
+
+}
+}
+
+
+class Arthmetic2 extends Arthmetic 
+{
+void Even()
+{
+if(i%2==0)
+{
+System.out.println( "i is even number :" + i );
+}
+else 
+{
+System.out.println( "i is odd number :" + i );
+}
+if(j%2==0)
+{
+System.out.println( "j is even number :" + j );
+}
+else 
+{
+System.out.println( "j is odd number :" + j );
+}
+
+}
+class Singleinheritance
+{
+Public static void main(String...args)
+{
+Arthmetic2 e = new Arthmetic2();
+e.Arthmetic2();
+e.Arthmetic();
+}}
